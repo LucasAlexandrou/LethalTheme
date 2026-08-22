@@ -1,0 +1,122 @@
+<!--
+theme name:		LethalTheme
+version:		1.0
+author:			Lucas Alexandrou (LethalDawg)
+email:			
+website:		
+license:		creative commons CC-BY-NC-SA
+based on:		"Carbon" by Eric Hettervik
+-->
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+
+	<include subset="colorset" name="Light">./colors/light.xml</include>
+	<include subset="colorset" name="Dark">./colors/dark.xml</include>
+
+	<!-- Carousel System View-->
+	<view name="system">
+
+		<image name="background">
+			<path>${bgImage}</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>
+
+		<image name="logo">
+			<path>${consolePath}${system.theme}.png</path>
+			<default>./assets/consoles/unknown.png</default>
+			<pos>0.5 0.05</pos>
+			<origin>0.5 0</origin>
+			<maxSize>0.44 0.28</maxSize>
+		</image>
+
+	</view>
+
+	<view name="basic">
+
+		<text name="description">
+			<color>${textColor}</color>
+		</text>
+
+	</view>
+
+	<!-- Detailed View -->
+	<view name="detailed">
+
+		<image name="background">
+			<path>${bgImage}</path>
+			<size>1 1</size>
+		</image>
+
+		<text name="logoText">
+			<pos>0.5 0.03</pos>
+			<origin>0.5 0</origin>
+			<fontSize>0.05</fontSize>
+			<color>${accentColor}</color>
+			<alignment>center</alignment>
+		</text>
+
+		<textlist name="gamelist">
+			<pos>0.5 0.15</pos>
+			<size>0.5 0.7</size>
+			<fontSize>0.04</fontSize>
+			<selectedColor>${accentColor}</selectedColor>
+			<primaryColor>${textColor}</primaryColor>
+			<secondaryColor>${textColor}</secondaryColor>
+		</textlist>
+
+		<image name="md_image">
+			<storyboard>
+				<animation property="opacity" from="0" to="1" duration="250" mode="easeOut"/>
+				<animation property="scale" from="0" to="1" duration="250" mode="easeOut"/>
+			</storyboard>
+			<pos>0.5 0.9</pos>
+			<origin>0.5 1</origin>
+			<size>0.5 0.3</size>
+		</image>
+
+		<text name="md_description">
+			<pos>0.5 0.9</pos>
+			<size>0.5 0.3</size>
+			<fontSize>0.03</fontSize>
+			<color>${textColor}</color>
+		</text>
+
+	</view>
+
+	<!-- Grid View -->
+	<view name="grid">
+
+		<text name="description">
+			<color>${textColor}</color>
+		</text>
+
+	</view>
+
+	<view name="gamecarousel">
+
+		<text name="description">
+			<color>#FFFFFF</color>
+		</text>
+
+	</view>
+
+	<view name="menu">
+
+		<text name="description">
+			<color>#FFFFFF</color>
+		</text>
+
+	</view>
+
+	<view name="screen">
+	
+		<text name="description">
+			<color>#FFFFFF</color>
+		</text>
+
+	</view>
+
+</theme>
