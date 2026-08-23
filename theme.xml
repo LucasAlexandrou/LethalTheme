@@ -74,7 +74,9 @@ based on:		"Carbon" by Eric Hettervik
 		<textlist name="gamelist">
 			<pos>0.02 0.15</pos>
 			<size>0.46 0.7</size>
+			<font>./assets/fonts/CalSans.ttf</font>
 			<fontSize>0.035</fontSize>
+			<selectorColor>00000000</selectorColor>
 			<selectedColor>${accentColor}</selectedColor>
 			<primaryColor>${textColor}</primaryColor>
 			<secondaryColor>${textColor}</secondaryColor>
@@ -111,6 +113,7 @@ based on:		"Carbon" by Eric Hettervik
 			<pos>0.55 0.76</pos>
 			<size>0.35 0.05</size>
 			<format>%Y</format>
+			<font>./assets/fonts/NunitoSans.ttf</font>
 			<fontSize>0.03</fontSize>
 			<color>${textColor}</color>
 		</datetime>
@@ -118,6 +121,7 @@ based on:		"Carbon" by Eric Hettervik
 		<text name="md_genre">
 			<pos>0.55 0.68</pos>
 			<size>0.35 0.05</size>
+			<font>./assets/fonts/NunitoSans.ttf</font>
 			<fontSize>0.03</fontSize>
 			<color>${textColor}</color>
 		</text>
@@ -168,6 +172,7 @@ based on:		"Carbon" by Eric Hettervik
 			<pos>0.98 0.02</pos>
 			<origin>1 0</origin>
 			<size>0 0</size>
+			<font>./assets/fonts/CalSans.ttf</font>
 			<fontSize>0.035</fontSize>
 			<alignment>right</alignment>
 		</text>

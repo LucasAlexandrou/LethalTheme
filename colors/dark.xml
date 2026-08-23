@@ -3,7 +3,7 @@
     <variables>
         <bgImage>./assets/background/dark-bg.png</bgImage>
         <consolePath>./assets/consoles/dark/</consolePath>
-        <textColor>e7e9ec</textColor>
-        <accentColor>5eead4</accentColor>
+        <textColor>a897bd</textColor>
+        <accentColor>7851a8</accentColor>
     </variables>
 </theme>

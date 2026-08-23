@@ -3,7 +3,7 @@
     <variables>
         <bgImage>./assets/background/light-bg.png</bgImage>
         <consolePath>./assets/consoles/light/</consolePath>
-        <textColor>1b1e22</textColor>
-        <accentColor>0d9488</accentColor>
+        <textColor>67afb5</textColor>
+        <accentColor>109be0</accentColor>
     </variables>
 </theme>
