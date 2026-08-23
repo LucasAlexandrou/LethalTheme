@@ -18,24 +18,36 @@ based on:		"Carbon" by Eric Hettervik
 	<!-- Carousel System View-->
 	<view name="system">
 
-		<image name="background">
+		<image name="background" extra="true">
 			<path>${bgImage}</path>
 			<pos>0 0</pos>
 			<size>1 1</size>
 		</image>
 
+		<carousel name="systemcarousel">
+			<pos>0 0.20</pos>
+			<size>1 0.36</size>
+			<color>00000000</color>
+			<logoScale>1.2</logoScale>
+			<logoSize>0.3 0.3</logoSize>
+			<maxLogoCount>3</maxLogoCount>
+		</carousel>
+
 		<image name="logo">
 			<path>${consolePath}${system.theme}.png</path>
 			<default>./assets/consoles/unknown.png</default>
-			<pos>0.5 0.05</pos>
-			<origin>0.5 0</origin>
-			<maxSize>0.44 0.28</maxSize>
 		</image>
 
 	</view>
 
 	<view name="basic">
 
+		<image name="background">
+			<path>${bgImage}</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>
+		
 		<text name="description">
 			<color>${textColor}</color>
 		</text>
@@ -47,6 +59,7 @@ based on:		"Carbon" by Eric Hettervik
 
 		<image name="background">
 			<path>${bgImage}</path>
+			<pos>0 0</pos>
 			<size>1 1</size>
 		</image>
 
@@ -59,9 +72,9 @@ based on:		"Carbon" by Eric Hettervik
 		</text>
 
 		<textlist name="gamelist">
-			<pos>0.5 0.15</pos>
-			<size>0.5 0.7</size>
-			<fontSize>0.04</fontSize>
+			<pos>0.02 0.15</pos>
+			<size>0.46 0.7</size>
+			<fontSize>0.035</fontSize>
 			<selectedColor>${accentColor}</selectedColor>
 			<primaryColor>${textColor}</primaryColor>
 			<secondaryColor>${textColor}</secondaryColor>
@@ -72,14 +85,39 @@ based on:		"Carbon" by Eric Hettervik
 				<animation property="opacity" from="0" to="1" duration="250" mode="easeOut"/>
 				<animation property="scale" from="0" to="1" duration="250" mode="easeOut"/>
 			</storyboard>
-			<pos>0.5 0.9</pos>
-			<origin>0.5 1</origin>
-			<size>0.5 0.3</size>
+			<pos>0.75 0.15</pos>
+			<origin>0.5 0</origin>
+			<size>0.4 0.4</size>
 		</image>
 
-		<text name="md_description">
-			<pos>0.5 0.9</pos>
-			<size>0.5 0.3</size>
+		<text name="md_lbl_rating,md_lbl_releasedate,md_lbl_genre,md_lbl_developer,md_lbl_publisher,md_lbl_players,md_lbl_played,md_lbl_playcount,md_lbl_gametime,md_lbl_lastplayed">
+			<visible>false</visible>
+		</text>
+
+		<text name="md_developer,md_publisher,md_players,md_played,md_playcount,md_gametime">
+			<visible>false</visible>
+		</text>
+
+		<datetime name="md_lastplayed">
+			<visible>false</visible>
+		</datetime>
+
+		<rating name="md_rating">
+			<pos>0.55 0.60</pos>
+			<size>0.15 0</size>
+		</rating>
+
+		<datetime name="md_releasedate">
+			<pos>0.55 0.76</pos>
+			<size>0.35 0.05</size>
+			<format>%Y</format>
+			<fontSize>0.03</fontSize>
+			<color>${textColor}</color>
+		</datetime>
+
+		<text name="md_genre">
+			<pos>0.55 0.68</pos>
+			<size>0.35 0.05</size>
 			<fontSize>0.03</fontSize>
 			<color>${textColor}</color>
 		</text>
@@ -89,6 +127,11 @@ based on:		"Carbon" by Eric Hettervik
 	<!-- Grid View -->
 	<view name="grid">
 
+		<image name="background">
+			<path>${bgImage}</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>
 		<text name="description">
 			<color>${textColor}</color>
 		</text>
@@ -96,7 +139,11 @@ based on:		"Carbon" by Eric Hettervik
 	</view>
 
 	<view name="gamecarousel">
-
+		<image name="background" extra="true">
+			<path>${bgImage}</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>
 		<text name="description">
 			<color>#FFFFFF</color>
 		</text>
@@ -104,7 +151,11 @@ based on:		"Carbon" by Eric Hettervik
 	</view>
 
 	<view name="menu">
-
+		<image name="background" extra="true">
+			<path>${bgImage}</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>
 		<text name="description">
 			<color>#FFFFFF</color>
 		</text>
@@ -112,11 +163,14 @@ based on:		"Carbon" by Eric Hettervik
 	</view>
 
 	<view name="screen">
-	
-		<text name="description">
-			<color>#FFFFFF</color>
-		</text>
 
+		<text name="clock">
+			<pos>0.98 0.02</pos>
+			<origin>1 0</origin>
+			<size>0 0</size>
+			<fontSize>0.035</fontSize>
+			<alignment>right</alignment>
+		</text>
 	</view>
 
 </theme>
