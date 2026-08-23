@@ -15,167 +15,18 @@ based on:		"Carbon" by Eric Hettervik
 	<include subset="colorset" name="Light">./colors/light.xml</include>
 	<include subset="colorset" name="Dark">./colors/dark.xml</include>
 
-	<!-- Carousel System View-->
-	<view name="system">
+	<include>./xml/system.xml</include>
 
-		<image name="background" extra="true">
-			<path>${bgImage}</path>
-			<pos>0 0</pos>
-			<size>1 1</size>
-		</image>
+	<include>./xml/basic.xml</include>
 
-		<carousel name="systemcarousel">
-			<pos>0 0.20</pos>
-			<size>1 0.36</size>
-			<color>00000000</color>
-			<logoScale>1.2</logoScale>
-			<logoSize>0.3 0.3</logoSize>
-			<maxLogoCount>3</maxLogoCount>
-		</carousel>
+	<include>./xml/detailed.xml</include>
 
-		<image name="logo">
-			<path>${consolePath}${system.theme}.png</path>
-			<default>./assets/consoles/unknown.png</default>
-		</image>
+	<include>./xml/grid.xml</include>
 
-	</view>
+	<include>./xml/gamecarousel.xml</include>
 
-	<view name="basic">
+	<include>./xml/menu.xml</include>
 
-		<image name="background">
-			<path>${bgImage}</path>
-			<pos>0 0</pos>
-			<size>1 1</size>
-		</image>
-		
-		<text name="description">
-			<color>${textColor}</color>
-		</text>
-
-	</view>
-
-	<!-- Detailed View -->
-	<view name="detailed">
-
-		<image name="background">
-			<path>${bgImage}</path>
-			<pos>0 0</pos>
-			<size>1 1</size>
-		</image>
-
-		<text name="logoText">
-			<pos>0.5 0.03</pos>
-			<origin>0.5 0</origin>
-			<fontSize>0.05</fontSize>
-			<color>${accentColor}</color>
-			<alignment>center</alignment>
-		</text>
-
-		<textlist name="gamelist">
-			<pos>0.02 0.15</pos>
-			<size>0.46 0.7</size>
-			<font>./assets/fonts/CalSans.ttf</font>
-			<fontSize>0.035</fontSize>
-			<selectorColor>00000000</selectorColor>
-			<selectedColor>${accentColor}</selectedColor>
-			<primaryColor>${textColor}</primaryColor>
-			<secondaryColor>${textColor}</secondaryColor>
-		</textlist>
-
-		<image name="md_image">
-			<storyboard>
-				<animation property="opacity" from="0" to="1" duration="250" mode="easeOut"/>
-				<animation property="scale" from="0" to="1" duration="250" mode="easeOut"/>
-			</storyboard>
-			<pos>0.75 0.15</pos>
-			<origin>0.5 0</origin>
-			<size>0.4 0.4</size>
-		</image>
-
-		<text name="md_lbl_rating,md_lbl_releasedate,md_lbl_genre,md_lbl_developer,md_lbl_publisher,md_lbl_players,md_lbl_played,md_lbl_playcount,md_lbl_gametime,md_lbl_lastplayed">
-			<visible>false</visible>
-		</text>
-
-		<text name="md_developer,md_publisher,md_players,md_played,md_playcount,md_gametime">
-			<visible>false</visible>
-		</text>
-
-		<datetime name="md_lastplayed">
-			<visible>false</visible>
-		</datetime>
-
-		<rating name="md_rating">
-			<pos>0.55 0.60</pos>
-			<size>0.15 0</size>
-		</rating>
-
-		<datetime name="md_releasedate">
-			<pos>0.55 0.76</pos>
-			<size>0.35 0.05</size>
-			<format>%Y</format>
-			<font>./assets/fonts/NunitoSans.ttf</font>
-			<fontSize>0.03</fontSize>
-			<color>${textColor}</color>
-		</datetime>
-
-		<text name="md_genre">
-			<pos>0.55 0.68</pos>
-			<size>0.35 0.05</size>
-			<font>./assets/fonts/NunitoSans.ttf</font>
-			<fontSize>0.03</fontSize>
-			<color>${textColor}</color>
-		</text>
-
-	</view>
-
-	<!-- Grid View -->
-	<view name="grid">
-
-		<image name="background">
-			<path>${bgImage}</path>
-			<pos>0 0</pos>
-			<size>1 1</size>
-		</image>
-		<text name="description">
-			<color>${textColor}</color>
-		</text>
-
-	</view>
-
-	<view name="gamecarousel">
-		<image name="background" extra="true">
-			<path>${bgImage}</path>
-			<pos>0 0</pos>
-			<size>1 1</size>
-		</image>
-		<text name="description">
-			<color>#FFFFFF</color>
-		</text>
-
-	</view>
-
-	<view name="menu">
-		<image name="background" extra="true">
-			<path>${bgImage}</path>
-			<pos>0 0</pos>
-			<size>1 1</size>
-		</image>
-		<text name="description">
-			<color>#FFFFFF</color>
-		</text>
-
-	</view>
-
-	<view name="screen">
-
-		<text name="clock">
-			<pos>0.98 0.02</pos>
-			<origin>1 0</origin>
-			<size>0 0</size>
-			<font>./assets/fonts/CalSans.ttf</font>
-			<fontSize>0.035</fontSize>
-			<alignment>right</alignment>
-		</text>
-	</view>
+	<include>./xml/screen.xml</include>
 
 </theme>

@@ -1,0 +1,18 @@
+<theme>
+
+    <formatVersion>7</formatVersion>
+    <view name="basic">
+
+		<image name="background">
+			<path>${bgImage}</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>
+		
+		<text name="description">
+			<color>${textColor}</color>
+		</text>
+
+	</view>
+
+</theme>

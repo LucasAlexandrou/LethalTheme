@@ -1,0 +1,78 @@
+<theme>
+
+    <formatVersion>7</formatVersion>
+    
+    <view name="detailed">
+
+		<image name="background">
+			<path>${bgImage}</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>
+
+		<text name="logoText">
+			<pos>0.5 0.03</pos>
+			<origin>0.5 0</origin>
+			<fontSize>0.05</fontSize>
+			<color>${accentColor}</color>
+			<alignment>center</alignment>
+		</text>
+
+		<textlist name="gamelist">
+			<pos>0.02 0.15</pos>
+			<size>0.46 0.7</size>
+			<font>./assets/fonts/CalSans.ttf</font>
+			<fontSize>0.035</fontSize>
+			<selectorColor>00000000</selectorColor>
+			<selectedColor>${accentColor}</selectedColor>
+			<primaryColor>${textColor}</primaryColor>
+			<secondaryColor>${textColor}</secondaryColor>
+		</textlist>
+
+		<image name="md_image">
+			<storyboard>
+				<animation property="opacity" from="0" to="1" duration="250" mode="easeOut"/>
+				<animation property="scale" from="0" to="1" duration="250" mode="easeOut"/>
+			</storyboard>
+			<pos>0.75 0.15</pos>
+			<origin>0.5 0</origin>
+			<size>0.4 0.4</size>
+		</image>
+
+		<text name="md_lbl_rating,md_lbl_releasedate,md_lbl_genre,md_lbl_developer,md_lbl_publisher,md_lbl_players,md_lbl_played,md_lbl_playcount,md_lbl_gametime,md_lbl_lastplayed">
+			<visible>false</visible>
+		</text>
+
+		<text name="md_developer,md_publisher,md_players,md_played,md_playcount,md_gametime">
+			<visible>false</visible>
+		</text>
+
+		<datetime name="md_lastplayed">
+			<visible>false</visible>
+		</datetime>
+
+		<rating name="md_rating">
+			<pos>0.55 0.60</pos>
+			<size>0.15 0</size>
+		</rating>
+
+		<datetime name="md_releasedate">
+			<pos>0.55 0.76</pos>
+			<size>0.35 0.05</size>
+			<format>%Y</format>
+			<font>./assets/fonts/NunitoSans.ttf</font>
+			<fontSize>0.03</fontSize>
+			<color>${textColor}</color>
+		</datetime>
+
+		<text name="md_genre">
+			<pos>0.55 0.68</pos>
+			<size>0.35 0.05</size>
+			<font>./assets/fonts/NunitoSans.ttf</font>
+			<fontSize>0.03</fontSize>
+			<color>${textColor}</color>
+		</text>
+
+	</view>
+
+</theme>
