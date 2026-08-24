@@ -5,9 +5,7 @@
     <view name="menu">
         
             <menuBackground name="menubg">
-                <path>${bgImage}</path>
-                <pos>0 0</pos>
-			    <size>1 1</size>
+                <color>${bgColor}</color>
             </menuBackground>
                 
             <menuText name="menutext">
