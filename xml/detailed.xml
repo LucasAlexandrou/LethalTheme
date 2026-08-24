@@ -28,7 +28,8 @@
 			<pos>0.02 0.15</pos>
 			<size>0.46 0.7</size>
 			<fontPath>./fonts/CalSans.ttf</fontPath>
-			<fontSize>0.035</fontSize>
+			<fontSize>0.04</fontSize>
+			<lines>11</lines>
 			<selectorColor>00000000</selectorColor>
 			<selectedColor>${accentColor}</selectedColor>
 			<primaryColor>${textColor}</primaryColor>
@@ -63,7 +64,7 @@
 			<size>0.35 0.05</size>
 			<format>%Y</format>
 			<fontPath>./fonts/CalSans.ttf</fontPath>
-			<fontSize>0.03</fontSize>
+			<fontSize>0.035</fontSize>
 			<color>${textColor}</color>
 		</datetime>
 
@@ -71,7 +72,7 @@
 			<pos>0.55 0.68</pos>
 			<size>0.35 0.05</size>
 			<fontPath>./fonts/CalSans.ttf</fontPath>
-			<fontSize>0.03</fontSize>
+			<fontSize>0.035</fontSize>
 			<color>${textColor}</color>
 		</text>
 
