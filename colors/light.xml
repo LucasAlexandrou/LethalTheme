@@ -1,5 +1,7 @@
 <theme>
+
     <formatVersion>7</formatVersion>
+
     <variables>
         <bgImage>./assets/background/light-bg.png</bgImage>
         <consolePath>./assets/consoles/light/</consolePath>
@@ -7,4 +9,5 @@
         <accentColor>109be0</accentColor>
         <bgColor>ffffff</bgColor>
     </variables>
+
 </theme>

@@ -1,6 +1,7 @@
 <theme>
 
     <formatVersion>7</formatVersion>
+
     <view name="basic">
 
 		<image name="background">
@@ -9,10 +10,16 @@
 			<size>1 1</size>
 		</image>
 		
-		<text name="description">
-			<color>${textColor}</color>
-			<fontPath>./fonts/NunitoSans.ttf</fontPath>
-		</text>
+		<textlist name="gamelist">
+			<pos>0.05 0.1</pos>
+			<size>0.9 0.8</size>
+			<fontPath>./fonts/CalSans.ttf</fontPath>
+			<fontSize>0.045</fontSize>
+			<selectorColor>00000000</selectorColor>
+			<selectedColor>${accentColor}</selectedColor>
+			<primaryColor>${textColor}</primaryColor>
+			<secondaryColor>${textColor}</secondaryColor>
+		</textlist>
 
 	</view>
 
