@@ -28,7 +28,7 @@
                 <pos>0.5 0.8</pos>
                 <origin>0.5 0</origin>
                 <size>0.9 0.04</size>
-                <font>./assets/fonts/CalSans.ttf</font>
+                <fontPath>./fonts/CalSans.ttf</fontPath>
                 <fontSize>0.04</fontSize>
                 <alignment>center</alignment>
                 <color>${textColor}</color>

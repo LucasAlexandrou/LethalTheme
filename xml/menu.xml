@@ -10,7 +10,7 @@
                 
             <menuText name="menutext">
                 <color>${textColor}</color>
-                <fontPath>./assets/fonts/CalSans.ttf</fontPath>
+                <fontPath>./fonts/CalSans.ttf</fontPath>
                 <fontSize>0.045</fontSize>
                 <selectedColor>${accentColor}</selectedColor>
                 <selectorColor>00000000</selectorColor>
@@ -19,19 +19,19 @@
 
             <menuText name="menutitle">
                 <color>${accentColor}</color>
-                <fontPath>./assets/fonts/NunitoSans.ttf</fontPath>
+                <fontPath>./fonts/CalSans.ttf</fontPath>
                 <fontSize>0.06</fontSize>
             </menuText>
 
             <menuText name="menufooter">
                 <color>${textColor}</color>
-                <fontPath>./assets/fonts/CalSans.ttf</fontPath>
+                <fontPath>./fonts/CalSans.ttf</fontPath>
                 <fontSize>0.04</fontSize>
             </menuText>
 
             <menuText name="menutextsmall">
                 <color>${textColor}</color>
-                <fontPath>./assets/fonts/CalSans.ttf</fontPath>
+                <fontPath>./fonts/CalSans.ttf</fontPath>
                 <fontSize>0.03</fontSize>
             </menuText>
 

@@ -11,6 +11,7 @@
 		
 		<text name="description">
 			<color>${textColor}</color>
+			<fontPath>./fonts/NunitoSans.ttf</fontPath>
 		</text>
 
 	</view>
