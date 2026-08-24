@@ -4,12 +4,17 @@
 
     <view name="screen">
 
+		<controllerActivity name="controllerActivity">
+			<visible>false</visible>
+		</controllerActivity>
+
 		<text name="clock">
 			<pos>0.98 0.02</pos>
 			<origin>1 0</origin>
 			<size>0 0</size>
+			<color>${textColor}</color>
 			<font>./assets/fonts/CalSans.ttf</font>
-			<fontSize>0.035</fontSize>
+			<fontSize>0.04</fontSize>
 			<alignment>right</alignment>
 		</text>
 	</view>

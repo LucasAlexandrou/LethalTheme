@@ -14,12 +14,13 @@
                 <fontSize>0.045</fontSize>
                 <selectedColor>${accentColor}</selectedColor>
                 <selectorColor>00000000</selectorColor>
+                <separatorColor>${textColor}20</separatorColor>
             </menuText>
 
             <menuText name="menutitle">
                 <color>${accentColor}</color>
                 <fontPath>./assets/fonts/NunitoSans.ttf</fontPath>
-                <fontSize>0.07</fontSize>
+                <fontSize>0.06</fontSize>
             </menuText>
 
             <menuText name="menufooter">
