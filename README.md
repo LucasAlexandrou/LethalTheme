@@ -8,7 +8,7 @@
 | ![Light System View](screenshots/light-system-gb.png) | ![Light Detailed View](screenshots/light-detailed.png) |
 
 ## Installation
-1. Download the latest release from the releases page
+1. Download the latest release from the [releases](https://github.com/LucasAlexandrou/LethalTheme-ES/releases) page
 2. Extract the "LethalTheme-ES" folder
 3. Copy the folder into your EmulationStation themes directory
 4. Select **LethalTheme-ES** in your device's theme settings
