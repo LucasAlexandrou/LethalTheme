@@ -22,7 +22,6 @@
 
             <image name="logo">
                 <path>${consolePath}${system.theme}.png</path>
-                <default>./assets/consoles/unknown.png</default>
             </image>
 
             <text name="system-name-label" extra="true">
