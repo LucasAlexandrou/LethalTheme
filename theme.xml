@@ -12,6 +12,8 @@ credit: 		iiSU Icons can be found in the Github Readme
 	<include subset="colorset" name="Light">./colors/light.xml</include>
 	<include subset="colorset" name="Dark">./colors/dark.xml</include>
 
+	<include>./xml/statusbar.xml</include>
+
 	<include>./xml/system.xml</include>
 
 	<include>./xml/basic.xml</include>

@@ -8,19 +8,14 @@
 			<visible>false</visible>
 		</controllerActivity>
 
-		<help name="help">
+		<batteryIndicator name="batteryIndicator">
 			<visible>false</visible>
-		</help>
+		</batteryIndicator>
 
 		<text name="clock">
-			<pos>0.98 0.02</pos>
-			<origin>1 0</origin>
-			<size>0 0</size>
-			<color>${textColor}</color>
-			<fontPath>./fonts/CalSans.ttf</fontPath>
-			<fontSize>0.04</fontSize>
-			<alignment>right</alignment>
+			<pos>1 1</pos>
 		</text>
+
 	</view>
 
 </theme>

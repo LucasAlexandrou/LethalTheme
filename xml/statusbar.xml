@@ -1,0 +1,54 @@
+<theme>
+
+    <formatVersion>7</formatVersion>
+
+    <view name="system,basic,detailed,grid,gamecarousel">
+
+		<stackpanel name="system-indicators" extra="true">
+
+			<zIndex>20</zIndex>
+			<pos>0 0.0417</pos>
+			<w>0.96875</w>
+			<h>0.05</h>
+
+			<orientation>horizontal</orientation>
+			<reverse>true</reverse>
+			<separator>0.015625</separator>
+
+			<batteryText name="system-battery-text">
+				<color>${accentColor}</color>
+                <fontPath>./fonts/CalSans.ttf</fontPath>
+				<fontSize>0.03</fontSize>
+			</batteryText>
+
+			<batteryIcon name="system-battery-icon">
+				<maxSize>1 1</maxSize>
+				<color>${iconColor}</color>
+				<full>./assets/battery/battery-100.svg</full>
+				<at75>./assets/battery/battery-75.svg</at75>
+				<at50>./assets/battery/battery-50.svg</at50>
+				<at25>./assets/battery/battery-25.svg</at25>
+				<empty>./assets/battery/battery-0.svg</empty>
+				<incharge>./assets/battery/battery-charging.svg</incharge>
+			</batteryIcon>
+
+			<networkIcon name="system-network-icon">
+				<maxSize>1 1</maxSize>
+				<color>${iconColor}</color>
+				<networkIcon>./assets/wifi/wifi.svg</networkIcon>
+				<planemodeIcon>./assets/wifi/plane.svg</planemodeIcon>
+			</networkIcon>
+
+		</stackpanel>
+
+		<clock name="system-clock-left" extra="true">
+				<zIndex>20</zIndex>
+				<pos>0.02 0.0417</pos>
+				<color>${accentColor}</color>
+                <fontPath>./fonts/CalSans.ttf</fontPath>
+				<fontSize>0.03</fontSize>
+		</clock>
+
+	</view>
+
+</theme>
