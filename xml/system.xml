@@ -17,6 +17,7 @@
                 <logoScale>1.25</logoScale>
                 <logoSize>0.38 0.38</logoSize>
                 <maxLogoCount>3</maxLogoCount>
+                <defaultTransition>fade</defaultTransition>
             </carousel>
 
             <image name="logo">
