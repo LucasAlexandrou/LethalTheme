@@ -7,7 +7,7 @@
         <consolePath>./assets/consoles/light/</consolePath>
         <textColor>67afb5</textColor>
         <accentColor>109be0</accentColor>
-        <bgColor>ffffff</bgColor>
+        <bgColor>00000000</bgColor>
         <iconColor>35A9E8</iconColor>
     </variables>
 
