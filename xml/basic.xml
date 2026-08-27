@@ -9,12 +9,22 @@
 			<pos>0 0</pos>
 			<size>1 1</size>
 		</image>
+
+		<text name="logoText">
+			<pos>0.5 0.1</pos>
+			<origin>0.5 0</origin>
+			<size>0.9 0.05</size>
+			<fontPath>./fonts/CalSans.ttf</fontPath>
+			<fontSize>0.055</fontSize>
+			<color>${accentColor}</color>
+			<alignment>center</alignment>
+		</text>
 		
 		<textlist name="gamelist">
-			<pos>0.05 0.15</pos>
+			<pos>0.05 0.18</pos>
 			<size>0.9 0.72</size>
 			<fontPath>./fonts/CalSans.ttf</fontPath>
-			<fontSize>0.045</fontSize>
+			<fontSize>0.0425</fontSize>
 			<lines>11</lines>
 			<selectorColor>00000000</selectorColor>
 			<selectedColor>${accentColor}</selectedColor>

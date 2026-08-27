@@ -19,6 +19,17 @@
 			<imageSource>image</imageSource>
 		</imagegrid>
 
+		<text name="grid-system-name" extra="true">
+			<pos>0.5 0.05</pos>
+			<origin>0.5 0</origin>
+			<size>0.7 0.04</size>
+			<text>{system:fullName}</text>
+			<fontPath>./fonts/CalSans.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<color>${textColor}</color>
+			<alignment>center</alignment>
+		</text>
+
 		<gridtile name="default">
 			<padding>4 4</padding>
 			<imageSizeMode>maxSize</imageSizeMode>
