@@ -15,7 +15,15 @@
 5. Configure settings to your own liking
 
 ## Customization
-* Choose between light or dark themes
+* Choose between light or dark themes with multiple secondary colour options for text and highlights including:
+  * Light Cyan
+  * Light Pink
+  * Light Yellow
+  * Light Orange
+  * Dark Purple
+  * Dark Green
+  * Dark Orange
+  * Dark Cyan
 * Multiple choices for game views: Basic, Detailed, Grid, Carousel
 
 ## 4:3 Aspect Ratio
