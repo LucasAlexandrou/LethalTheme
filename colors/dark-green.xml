@@ -1,0 +1,14 @@
+<theme>
+
+    <formatVersion>7</formatVersion>
+
+    <variables>
+        <bgImage>./assets/background/dark-bg.png</bgImage>
+        <consolePath>./assets/consoles/dark/</consolePath>
+        <textColor>3d9100</textColor>
+        <accentColor>82ff28</accentColor>
+        <bgColor>00000000</bgColor>
+        <iconColor>34ed1a</iconColor>
+    </variables>
+
+</theme>

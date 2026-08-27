@@ -1,6 +1,6 @@
 <!--
 theme name:		LethalTheme-ES
-version:		1.0
+version:		1.1
 author:			Lucas Alexandrou (LethalDawg)
 credit: 		iiSU Icons can be found in the Github Readme
 based on:		"techdweeb-es" by TechDweeb
@@ -10,8 +10,14 @@ based on:		"techdweeb-es" by TechDweeb
 
 	<formatVersion>7</formatVersion>
 
-	<include subset="colorset" name="Light">./colors/light.xml</include>
-	<include subset="colorset" name="Dark">./colors/dark.xml</include>
+	<include subset="colorset" name="Light Cyan">./colors/light-cyan.xml</include>
+	<include subset="colorset" name="Light Orange">./colors/light-orange.xml</include>
+	<include subset="colorset" name="Light Pink">./colors/light-pink.xml</include>
+	<include subset="colorset" name="Light Yellow">./colors/light-yellow.xml</include>
+	<include subset="colorset" name="Dark Purple">./colors/dark-purple.xml</include>
+	<include subset="colorset" name="Dark Green">./colors/dark-green.xml</include>
+	<include subset="colorset" name="Dark Cyan">./colors/dark-cyan.xml</include>
+	<include subset="colorset" name="Dark Orange">./colors/dark-orange.xml</include>
 
 	<include>./xml/statusbar.xml</include>
 

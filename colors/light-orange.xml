@@ -1,0 +1,14 @@
+<theme>
+
+    <formatVersion>7</formatVersion>
+
+    <variables>
+        <bgImage>./assets/background/light-bg.png</bgImage>
+        <consolePath>./assets/consoles/light/</consolePath>
+        <textColor>f5b262</textColor>
+        <accentColor>d6780f</accentColor>
+        <bgColor>00000000</bgColor>
+        <iconColor>ff8900</iconColor>
+    </variables>
+
+</theme>
