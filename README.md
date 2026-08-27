@@ -5,7 +5,7 @@
 | -- | -- |
 | ![Light Carousel View](screenshots/light-carousel.png) | ![Light Carousel View](screenshots/light-system-wonderswan.png) |
 | ![Dark Grid View](screenshots/dark-grid.png) | ![Dark Menu View](screenshots/dark-menu-config.png) |
-| ![Light System View](screenshots/light-system-gb.png) | ![Light Detailed View](screenshots/light-detailed.png) |
+| ![Light System View](screenshots/light-pink-system.png) | ![Light Detailed View](screenshots/light-detailed.png) |
 
 ## Installation
 1. Download the latest release from the [releases](https://github.com/LucasAlexandrou/LethalTheme-ES/releases) page
