@@ -42,11 +42,11 @@
 		</stackpanel>
 
 		<clock name="system-clock-left" extra="true">
-				<zIndex>20</zIndex>
-				<pos>0.02 0.0417</pos>
-				<color>${accentColor}</color>
-                <fontPath>./fonts/CalSans.ttf</fontPath>
-				<fontSize>0.03</fontSize>
+			<zIndex>20</zIndex>
+			<pos>0.02 0.0417</pos>
+			<color>${accentColor}</color>
+            <fontPath>./fonts/CalSans.ttf</fontPath>
+			<fontSize>0.03</fontSize>
 		</clock>
 
 	</view>
