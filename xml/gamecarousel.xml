@@ -11,7 +11,7 @@
 		
 		<gamecarousel name="gamecarousel">
 			<pos>0.05 0.1</pos>
-			<size>1 0.7</size>
+			<size>0.9 0.7</size>
 			<logoSize>0.55 0.55</logoSize>
 			<logoScale>1.6</logoScale>
 			<type>horizontal</type>
