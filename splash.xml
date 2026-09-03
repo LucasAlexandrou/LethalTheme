@@ -1,0 +1,56 @@
+<theme>
+
+    <include>./theme.xml</include>
+
+    <formatVersion>7</formatVersion>
+
+        <view name="splash">
+
+            <splash name="splash">
+                <backgroundColor>000000</backgroundColor>
+            </splash>
+
+            <image name="background">
+                <origin>0.5 0.5</origin>
+                <pos>0.5 0.5</pos>
+                <minSize>1 1</minSize>
+                <path>${bgImage}</path>
+            </image>
+
+            <image name="progressbar">
+                <origin>0.5 0.5</origin>
+                <pos>0.5 0.65</pos>
+                <color>${accentColor}40</color>
+                <colorEnd>${accentColor}40</colorEnd>
+            </image>
+
+            <image name="progressbar:active">
+                <color>${accentColor}</color>
+                <colorEnd>${accentColor}</colorEnd>
+            </image>
+
+            <text name="label">
+                <origin>0.5 0.5</origin>
+                <pos>0.5 0.75</pos>
+                <size>0.8 0</size>
+                <alignment>center</alignment>
+                <fontPath>./fonts/CalSans.ttf</fontPath>
+                <fontSize>0.035</fontSize>
+                <lineSpacing>0.75</lineSpacing>
+                <color>${textColor}</color>
+            </text>
+
+            <text name="title" extra="true">
+                <text>LethalTheme-ES</text>
+                <origin>0.5 0.5</origin>
+                <pos>0.5 0.45</pos>
+                <size>0.9 0.12</size>
+                <alignment>center</alignment>
+                <fontPath>./fonts/CalSans.ttf</fontPath>
+                <fontSize>0.085</fontSize>
+                <color>${textColor}</color>
+            </text>
+
+        </view>
+
+</theme>

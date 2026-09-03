@@ -30,6 +30,16 @@
 			<alignment>center</alignment>
 		</text>
 
+		<video name="md_video">
+			<pos>0.5 0.45</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.6 0.6</size>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<snapshotSource>image</snapshotSource>
+			<effect>bump</effect>
+			<delay>0.7</delay>
+		</video>
+
 		<text name="md_name">
 			<pos>0.5 0.82</pos>
 			<origin>0.5 0</origin>

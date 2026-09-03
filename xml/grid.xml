@@ -17,6 +17,7 @@
 			<autoLayout>3 2</autoLayout>
 			<autoLayoutZoom>1.15</autoLayoutZoom>
 			<imageSource>image</imageSource>
+			<showVideoAtDelay>700</showVideoAtDelay>
 		</imagegrid>
 
 		<text name="logoText">

@@ -19,6 +19,15 @@ based on:		"techdweeb-es" by TechDweeb
 	<include subset="colorset" name="Dark Cyan">./colors/dark-cyan.xml</include>
 	<include subset="colorset" name="Dark Orange">./colors/dark-orange.xml</include>
 
+	<view name="system,grid,gamecarousel,detailed,basic,menu">
+		<helpsystem name="help">
+			<textColor>${textColor}</textColor>
+			<iconColor>${accentColor}</iconColor>
+			<fontPath>./fonts/CalSans.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+		</helpsystem>
+	</view>
+
 	<include>./xml/statusbar.xml</include>
 
 	<include>./xml/system.xml</include>

@@ -42,6 +42,16 @@
 			<size>0.4 0.4</size>
 		</image>
 
+		<video name="md_video">
+			<pos>0.75 0.18</pos>
+			<origin>0.5 0</origin>
+			<size>0.4 0.4</size>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<snapshotSource>image</snapshotSource>
+			<effect>bump</effect>
+			<delay>0.7</delay>
+		</video>
+
 		<text name="md_lbl_rating,md_lbl_releasedate,md_lbl_genre,md_lbl_developer,md_lbl_publisher,md_lbl_players,md_lbl_played,md_lbl_playcount,md_lbl_gametime,md_lbl_lastplayed">
 			<visible>false</visible>
 		</text>
@@ -55,6 +65,7 @@
 		</datetime>
 
 		<rating name="md_rating">
+			<color>${accentColor}</color>
 			<pos>0.55 0.60</pos>
 			<size>0.15 0</size>
 		</rating>

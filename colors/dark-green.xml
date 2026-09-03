@@ -7,7 +7,7 @@
         <consolePath>./assets/consoles/dark/</consolePath>
         <textColor>3d9100</textColor>
         <accentColor>82ff28</accentColor>
-        <bgColor>00000000</bgColor>
+        <bgColor>00000099</bgColor>
         <iconColor>34ed1a</iconColor>
     </variables>
 

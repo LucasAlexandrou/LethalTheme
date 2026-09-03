@@ -6,6 +6,7 @@
         
             <menuBackground name="menubg">
                 <color>${bgColor}</color>
+                <cornerSize>20 20</cornerSize>
             </menuBackground>
                 
             <menuText name="menutext">
@@ -13,7 +14,7 @@
                 <fontPath>./fonts/CalSans.ttf</fontPath>
                 <fontSize>0.045</fontSize>
                 <selectedColor>${accentColor}</selectedColor>
-                <selectorColor>00000000</selectorColor>
+                <selectorColor>${textColor}40</selectorColor>
                 <separatorColor>${textColor}20</separatorColor>
             </menuText>
 
@@ -29,11 +30,11 @@
                 <fontSize>0.04</fontSize>
             </menuText>
 
-            <menuText name="menutextsmall">
-                <color>${textColor}</color>
+            <menuTextSmall name="menutextsmall">
+                <color>${accentColor}</color>
                 <fontPath>./fonts/CalSans.ttf</fontPath>
-                <fontSize>0.03</fontSize>
-            </menuText>
+                <fontSize>0.025</fontSize>
+            </menuTextSmall>
 
     </view>
 
